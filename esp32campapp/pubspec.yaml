@@ -1,0 +1,36 @@
+# ----------------------------------------------------------------- #
+#                 pubspec.yaml for ESP32-CAM Robot App              #
+# ----------------------------------------------------------------- #
+
+name: esp32campapp
+description: "A Flutter application to control an ESP32-CAM robot."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+# --- 3. Application Dependencies ---
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # For WebSocket communication with the ESP32-CAM
+  web_socket_channel: ^2.4.1
+
+  # For the on-screen joystick controller UI
+  flutter_joystick: ^0.0.3
+
+  # --- CORRECTED PACKAGE NAME AND VERSION ---
+  # For reliably displaying the MJPEG live video stream
+  flutter_mjpeg: ^2.0.4
+
+# --- 4. Development Dependencies ---
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# --- 5. Flutter-Specific Configuration ---
+flutter:
+  uses-material-design: true  

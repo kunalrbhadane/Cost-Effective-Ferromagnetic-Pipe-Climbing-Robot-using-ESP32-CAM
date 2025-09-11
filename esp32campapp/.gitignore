@@ -1,0 +1,69 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+dart_precompiled_snapshots/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Android
+/android/.gradle/
+/android/captures/
+/android/local.properties
+/android/key.properties
+# IMPORTANT: Never commit your keystore files for security!
+*.jks
+
+# iOS
+/ios/Pods/
+/ios/Flutter/App.framework
+/ios/Flutter/engine.framework
+/ios/Flutter/flutter_assets/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/.last_build_id
+/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+/ios/Runner.xcodeproj/project.xcworkspace/
+/ios/Runner.xcodeproj/xcuserdata/
+/ios/.symlinks/
+# Generated plugin build files
+/ios/Flutter/ephemeral/
+
+# Web
+/web/build/
+/web/.dart_tool/
+
+# Windows
+/windows/build/
+/windows/flutter/ephemeral
+/windows/runner/Debug/
+/windows/runner/Profile/
+/windows/runner/Release/
+/windows/.vs/
+
+# Linux
+/linux/build/
+/linux/flutter/ephemeral
+
+# macOS
+/macos/build/
+/macos/Flutter/ephemeral
